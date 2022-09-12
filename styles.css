@@ -1,0 +1,49 @@
+body {
+    margin: 0px;
+    font-family: Helvetica, sans-serif;
+}
+
+h4 {
+    text-orientation:upright;
+    writing-mode: vertical-lr;
+    letter-spacing: 10px;
+    margin: 0px;
+}
+
+.photo-one {
+    background: url("img/perfume.jpg");
+    width:600px;
+    height:600px;
+    background-size: cover;
+}
+
+.photo-two {        
+    background: url("img/LV.jpg");
+    width: 600px;
+    height: 600px;
+    background-size: cover;
+}
+
+.photo-three {
+    background: url("img/plant.jpg");
+    width: 1204px;
+    height: 260px;
+}
+
+.photo-one, .photo-two, h4 {
+display: inline-block;
+margin: 0px;
+}
+
+.container {
+    float: right;
+    margin: 0px;
+}
+
+.main {
+    margin: 20px;
+}
+
+h4:hover {
+    color: orangered;
+}
